@@ -34,7 +34,13 @@ p{
 
 h1, h2, h3, h4, h5, h6{
 	color:#717171;
-	font-family: 'omnessemibold';
+	font-family: 'omnesmedium';
+	font-weight: 700;
+}
+
+img{
+	width: 100%;
+	height:auto;
 }
 
 a{
@@ -83,3 +89,10 @@ h6{
 	height: 450px;
 	background-size: cover;
 }
+
+.flex{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+
